@@ -13,5 +13,3 @@ while (horizontalGuideCount > 0) {
 	[[artboard horizontalRulerData] removeGuideAtIndex:0]
 	horizontalGuideCount = [[artboard horizontalRulerData] numberOfGuides]
 }
-
-[doc showMessage:"All guides removed"]
