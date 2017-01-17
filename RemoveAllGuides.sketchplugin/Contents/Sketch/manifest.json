@@ -1,0 +1,18 @@
+{
+ "name" : "Remove All Guides",
+ "identifier" : "remove.all.guides",
+ "version" : "1.0",
+ "description" : "Removes all the guides from the selected artboards",
+ "authorEmail" : "ichikumer@gmail..com",
+ "author" : "ichik umer",
+ 
+ "commands" : [
+ {
+ "script" : "RemoveAllGuides.js",
+ "handler" : "onRun",
+ "shortcut" : "command shift option r",
+ "name" : "Remove All Guides",
+ "identifier" : "remove.all.guides.remove"
+ }
+ ],
+}
