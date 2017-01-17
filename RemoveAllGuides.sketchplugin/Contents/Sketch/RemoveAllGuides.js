@@ -10,8 +10,6 @@ function onRun(context) {
 				var artboard = selection[i];
 				var horizontalGuideCount = [[artboard verticalRulerData] numberOfGuides];
 				var verticalGuideCount = [[artboard horizontalRulerData] numberOfGuides];
-				log(verticalGuideCount);
-				log(horizontalGuideCount);
 				while (horizontalGuideCount > 0) {
 						[[artboard verticalRulerData] removeGuideAtIndex:0];
 						horizontalGuideCount = [[artboard verticalRulerData] numberOfGuides];
