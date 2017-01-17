@@ -2,7 +2,7 @@
  "name" : "Remove All Guides",
  "identifier" : "remove.all.guides",
  "version" : "1.0",
- "description" : "Removes all the guides from the selected artboards",
+ "description" : "Removes all guides from the selected artboards",
  "authorEmail" : "ichikumer@gmail..com",
  "author" : "ichik umer",
  
