@@ -1,6 +1,6 @@
 {
   "name": "removeallguides",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes all the guides from selected artboards.",
   "author": "ichik <ichikumer@gmail.com>",
   "engines": {
