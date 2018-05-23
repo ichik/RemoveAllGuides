@@ -1,18 +1,28 @@
 {
- "name" : "Remove All Guides",
- "identifier" : "remove.all.guides",
- "version" : "1.0",
- "description" : "Removes all guides from the selected artboards",
- "authorEmail" : "ichikumer@gmail.com",
- "author" : "ichik umer",
- 
- "commands" : [
- {
- "script" : "RemoveAllGuides.js",
- "handler" : "onRun",
- "shortcut" : "command shift option r",
- "name" : "Remove All Guides",
- "identifier" : "remove.all.guides.remove"
- }
- ],
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Remove All Guides",
+      "identifier": "remove.all.guides",
+      "shortcut": "command shift option r",
+      "script": "RemoveAllGuides.js"
+    }
+  ],
+  "menu": {
+    "title": "Remove All Guides",
+    "items": [
+      "remove.all.guides"
+    ],
+    "isRoot": true
+  },
+  "version": "1.0.0",
+  "description": "Removes all the guides from selected artboards.",
+  "homepage": "https://github.com/ichik/removeallguides#readme",
+  "name": "RemoveAllGuides",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/ichik/removeallguides/master/.appcast.xml",
+  "author": "ichik",
+  "authorEmail": "ichikumer@gmail.com"
 }
