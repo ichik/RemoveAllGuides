@@ -1,6 +1,6 @@
 {
   "name": "RemoveAllGuides",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Removes all the guides from selected artboards.",
   "author": "ichik <ichikumer@gmail.com>",
   "engines": {
@@ -29,6 +29,6 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.5.2"
+    "@skpm/builder": "^0.7.0"
   }
 }
